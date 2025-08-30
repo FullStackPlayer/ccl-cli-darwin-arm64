@@ -1,6 +1,10 @@
 # ccl-cli-darwin-arm64
 
-适用于 darwin-arm64 架构（Apple Silicon Mac）的 ccl-cli 包。
+适用于 darwin-arm64 架构（Apple Silicon Mac）的 ccl-cli 包，安装后可以使用 `ccl-darwin-arm64` 命令。
+
+**注意**
+
+一般情况下不建议您直接安装此包，最好全局安装 `ccl-cli-installer` 包，这样安装后还可以直接使用 `ccl` 命令。
 
 ## 描述
 
@@ -26,7 +30,7 @@ ccl-darwin-arm64 --version
 ccl-darwin-arm64 --help
 ```
 
-注意：命令名称是 `ccl-darwin-arm64`，而不是 `ccl`，这样可以明确表示此二进制文件是为特定架构编译的。如果你想要直接使用 `ccl` 命令，请全局安装 `ccl-cli` 包。
+注意：命令名称是 `ccl-darwin-arm64`，而不是 `ccl`，这样可以明确表示此二进制文件是为特定架构编译的。如果你想要直接使用 `ccl` 命令，请全局安装 `ccl-cli-installer` 包。
 
 ## 架构
 

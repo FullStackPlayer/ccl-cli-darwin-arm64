@@ -14,11 +14,6 @@
 npm install -g ccl-cli-darwin-arm64
 ```
 
-安装过程中，软件包将自动：
-1. 从包含的 zip 文件中解压 ccl 二进制文件
-2. 将其放置在适当的 bin 目录中
-3. 设置所需的执行权限
-
 ## 使用方法
 
 安装完成后，您可以使用 `ccl-darwin-arm64` 命令：

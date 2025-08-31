@@ -1,6 +1,9 @@
 # executable files
 bin/ccl*
 
+# zip files
+zip/*.zip
+
 # lock files
 package-lock.json
 

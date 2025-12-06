@@ -1,8 +1,9 @@
 # macOS
 .DS_Store
 
-# bin files
-bin/ccl*
+# bin files - exclude the binary but keep the launcher script
+bin/ccl
+!bin/ccl-darwin-arm64.js
 
 # Exclude files that should not be included in the npm package
 .gitignore
